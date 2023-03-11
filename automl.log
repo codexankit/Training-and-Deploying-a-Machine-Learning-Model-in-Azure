@@ -1,0 +1,51 @@
+2021-01-25 15:09:21.551 - INFO - 5475 - azureml.train.automl.automlconfig._start_execution:207 - Submitting remote.
+2021-01-25 15:35:12.558 - INFO - 5475 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-01-25 15:35:12.562 - INFO - 5475 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetOutput
+2021-01-25 15:35:12.680 - INFO - 5475 - azureml.train.automl.run._log_activity:54 - ActivityStarted: GetChildren
+2021-01-25 15:35:12.793 - INFO - 5475 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=113.32[ms]
+2021-01-25 15:35:12.793 - INFO - 5475 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=231.26[ms]
+2021-01-25 15:35:12.799 - INFO - 5475 - azureml.train.automl._model_download_utilities._log_activity:54 - ActivityStarted: DownloadModel
+2021-01-25 15:35:31.427 - INFO - 5475 - azureml.automl.runtime.distributed.utilities.horovod_initialized:58 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2021-01-25 15:35:35.477 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2021-01-25 15:35:35.478 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2021-01-25 15:35:35.642 - INFO - 5475 - azureml.train.automl._model_download_utilities._log_activity:92 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=22843.73[ms]
+2021-01-25 15:35:35.643 - INFO - 5475 - azureml.train.automl.run._log_activity:92 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=23085.03[ms]
+2021-01-25 15:40:14.596 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 14706561024 bytes
+2021-01-25 15:40:14.597 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.597 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.600 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.600 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.600 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.602 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.602 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.602 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.604 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.604 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.604 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.606 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.606 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.606 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.608 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.618 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.618 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.620 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.620 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.620 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2021-01-25 15:40:14.622 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.622 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.622 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2021-01-25 15:40:14.632 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.632 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.632 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2021-01-25 15:40:14.637 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.637 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.637 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2021-01-25 15:40:14.641 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.641 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.641 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2021-01-25 15:40:14.645 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.645 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 9843945472 bytes
+2021-01-25 15:40:14.645 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2021-01-25 15:40:14.649 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (75, 1)
+2021-01-25 15:40:14.650 - INFO - 5475 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2021-01-25 15:40:14.650 - INFO - 5475 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 14706561024 bytes, Current Available memory: 9843945472 bytes. Low memory threshold: 0.5
