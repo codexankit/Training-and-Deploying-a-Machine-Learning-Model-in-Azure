@@ -1,9 +1,6 @@
-
-# Udacity's Machine Learning Engineer With Microsoft Azure Capstone Project
-
 ## Project Overview 
 
-For Udacity's Machine Learning Engineer with Microsoft Azure Nanodegree capstone project we had to choose a dataset, task, and metric for a machine learning problem, do training with both Azure Hyperdrive and AutoML, register the best models from each, deploy the best performing of the two models, and consume the endpoint.
+In this project I had choose a dataset, task, and metric for a machine learning problem, do training with both Azure Hyperdrive and AutoML, register the best models from each, deploy the best performing of the two models, and consume the endpoint.
 
 ## Dataset
 
@@ -152,10 +149,6 @@ The above screenshot shows the url for querying the endpoint.
 ![Endpoint query](Screenshots/requestoutput.PNG)
 The above screenshot shows the data being sent, the request, and the result.
 Just a note, in my notebook the reason the json.dumps was commented out was because this was already done when testing local deployment. 
-
-## Screen Recording
-
-[https://youtu.be/wbC8YtjXAx4](https://youtu.be/wbC8YtjXAx4)
 
 ## Suggestions
 
